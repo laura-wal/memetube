@@ -1,0 +1,8 @@
+<h1>Welcome to world class MemeTube</h1>
+<div class="newpost">
+  <a href="/videos/new">Create a new post</a><br>
+</div>
+
+  <% @videos.each do |video| %>
+     <div class="hplinks"><a href="/videos/<%= video['id']%>"><%=video['title']%></a></div>
+  <% end %>

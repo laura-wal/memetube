@@ -1,0 +1,39 @@
+body {
+  background-color: gray;
+  color: white;
+  font-family: serif;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+.hplinks {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  display: inline;
+  background-color: lightblue;
+  font-style: normal;
+  border: solid white 1px;
+  font-size: 20px;
+}
+
+.newpost {
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin-right: 60px;
+  margin-left: 60px;
+}
