@@ -9,6 +9,10 @@ p {
   font-size: 20px;
 }
 
+.vids {
+  display: inline-block;
+}
+
 .hplinks {
   margin: 10px;
   width: 80px;
